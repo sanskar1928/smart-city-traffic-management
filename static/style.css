@@ -1,0 +1,85 @@
+
+/* 1. Style the entire webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+/* 2. Dashboard heading */
+h1 {
+    color: #1e3a5f;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* 3. Refresh button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+/* 4. Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 5. Traffic data table */
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 6. Table headings and cells */
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* 7. Table header */
+th {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+/* 8. Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* 9. Row hover effect */
+tbody tr:hover {
+    background-color: #dbeafe;
+}
+
+/* 10. Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}

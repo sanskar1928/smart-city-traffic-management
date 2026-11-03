@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart City Traffic Dashboard</title>
+    <link rel="stylesheet"
+          href="/static/style.css">
+</head>
+<body>
+    <h1>Smart City Traffic Dashboard</h1>
+
+    <button onclick="loadTraffic()">
+        Refresh Traffic
+    </button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Road</th>
+                <th>Vehicle Count</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody id="trafficData"></tbody>
+    </table>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
